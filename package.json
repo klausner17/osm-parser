@@ -1,0 +1,14 @@
+{
+  "name": "osmium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.0.0-rc.1",
+    "osmium": "^0.5.7",
+    "read-json-stream": "^1.1.0"
+  }
+}
